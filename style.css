@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+}
+.text{
+    color: white;
+    font-size: 50px;
+    
+}
+.textp{
+    color: white;
+    font-size: 20px;    
+}
+
+header {
+         background: 
+     linear-gradient(to bottom,#000,#0008),
+     center top / cover url("resto.PNG") 
+     ;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: #333;
+
+}
+
+nav {
+    background: #575656;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0ea1f0;
+}
+
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card span {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+button {
+    background: #0ea1f0;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #e74c3c;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+form {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    resize: none;
+    height: 80px;
+}
+
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+}
+#panier ul {
+    list-style: none;
+    padding: 0;
+}
+
+#panier li {
+    background: white;
+    margin: 10px auto;
+    padding: 15px;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#panier button {
+    background: #0ea1f0;
+    color: white;
+    border: none;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#panier button:hover {
+    background: #e74c3c;
+}
+#total {
+    font-weight: bold;
+}
